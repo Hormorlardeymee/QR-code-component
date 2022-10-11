@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -26,7 +26,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ### Screenshot
 
-![](./images/Screenshot.png)
+![](./Screenshot.png)
 
 
 ### Links
@@ -46,16 +46,37 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 ### What I learned
 I had fun while working on this project. It was also very challenging as it made me realize how much i still have to learn. I look forward to my improvements.
 
-### Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
+### Code Snippet:
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<body>
+    <div class="container">
+        <div class="qr-code">
+            <img src="images/image-qr-code.png" alt="qr code">
+            <div class="text">
+                <h2>    
+                    Improve your front-end skills by building projects
+                </h2 >  
+                <p>
+                    Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level
+                </p>
+        </div>
+        </div>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Hormorlardeymee</a>.
+      </div>
+</body>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.body{
+    font-family: 'outfit', sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 ```
 
