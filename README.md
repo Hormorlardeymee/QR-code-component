@@ -32,7 +32,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/frontend-mentor-challenge-qr-code-component-btgaKAvBQw.com)
-- Live Site URL: (https://hormorlardeymee.github.io.frontend-challenge---qr-code-component/)
+- Live Site URL: (https://hormorlardeymee.github.io.QR-code-component/)
 
 ## My process
 
